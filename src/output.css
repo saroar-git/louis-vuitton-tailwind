@@ -596,6 +596,15 @@
   .bg-\[url\(\.\/img\/sm-banner\.jpg\)\] {
     background-image: url(./img/sm-banner.jpg);
   }
+  .bg-\[url\(\.\/src\/img\/banner\.jpg\)\] {
+    background-image: url(./src/img/banner.jpg);
+  }
+  .bg-\[url\(img\/banner\.jpg\)\] {
+    background-image: url(img/banner.jpg);
+  }
+  .bg-\[url\(src\/img\/banner\.jpg\)\] {
+    background-image: url(src/img/banner.jpg);
+  }
   .bg-contain {
     background-size: contain;
   }
