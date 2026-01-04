@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOUIS VUITTON</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="shortcut icon" href="./img/vl-logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--  navbar -->
+    <nav
+      class="w-full md:fixed top-0 left-0 overflow-auto p-4 md:p-6 hover:bg-white hover:text-black"
+    >
+      <div
+        class="w-full flex items-center justify-between text-black md:text-white hover:text-black"
+      >
+        <div class="flex items-center gap-5">
+          <span class="flex items-center gap-3"
+            ><i class="fa-solid fa-bars"></i>
+            <span class="hidden md:flex">Menu</span></span
+          >
+          <span class="hidden md:flex items-center gap-3"
+            ><i class="fa-solid fa-magnifying-glass"></i> Search</span
+          >
+        </div>
+
+        <h2 class="text-xl md:text-3xl uppercase font-bold">Louis Vuitton</h2>
+        <div class="flex items-center gap-5">
+          <span class="hidden md:flex">Contact us</span>
+          <span class="hidden md:flex"
+            ><i class="fa-regular fa-heart"></i
+          ></span>
+          <span><i class="fa-regular fa-user"></i></span>
+          <span><i class="fa-solid fa-basket-shopping"></i></span>
+        </div>
+      </div>
+      <div class="md:hidden text-center mt-4">
+        <input
+          type="text"
+          class="border border-gray-400 w-full rounded-3xl py-4 px-6 outline-none text-xs focus:ring-1 focus:ring-gray-400"
+          placeholder="Search for Men's Spring-Summer 2026 Show"
+        />
+      </div>
+    </nav>
+
+    <!-- banner -->
+    <section
+      class="bg-[url(./img/banner.jpg)] bg-cover hidden md:block object-center h-screen bg-no-repeat"
+    >
+      <div
+        class="flex flex-col items-center justify-end gap-3 h-[95vh] text-white"
+      >
+        <span class="uppercase text-xs">NEW</span>
+        <span class="text-3xl">Le Monogram 130th Anniversary</span>
+        <p class="flex items-center gap-3">
+          <span class="underline">Shop Now</span>
+          <span class="underline">Discover the Collections</span>
+        </p>
+      </div>
+    </section>
+    <!-- small device -->
+    <section class="md:hidden relative w-full">
+      <img src="./img/sm-banner.jpg" alt="Banner" class="w-full h-auto block" />
+
+      <div
+        class="absolute inset-0 flex flex-col items-center justify-end pb-10 gap-3 text-white"
+      >
+        <span class="uppercase text-xs">NEW</span>
+        <span class="text-3xl font-medium text-center px-4"
+          >Le Monogram 130th Anniversary</span
+        >
+        <p class="flex items-center gap-3">
+          <span class="underline text-sm">Shop Now</span>
+          <span class="underline text-sm">Discover the Collections</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- category -->
+    <section class="my-10 md:my-20 px-4 md:px-20">
+      <h3 class="text-center md:text-3xl text-2xl">Shop by Category</h3>
+      <div
+        class="max-w-7xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-x-5 gap-y-7 md:gap-y-10 py-10"
+      >
+        <div class="max-w-80 text-center space-y-2">
+          <div class="aspect-4/5 bg-[#F6F6F6] overflow-hidden">
+            <img
+              src="./img/shop1.jpg"
+              class="w-full h-full object-cover"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 text-sm md:text-base leading-tight">Women's Bag</p>
+        </div>
+        <div class="max-w-80 text-center space-y-2">
+          <div class="aspect-4/5 bg-[#F6F6F6] overflow-hidden">
+            <img
+              src="./img/shop2.jpg"
+              class="w-full h-full object-cover"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 text-sm md:text-base leading-tight">
+            Women's Small Leather Goods
+          </p>
+        </div>
+        <div class="max-w-80 text-center space-y-2">
+          <div class="aspect-4/5 bg-[#F6F6F6] overflow-hidden">
+            <img
+              src="./img/shop3.jpg"
+              class="w-full h-full object-cover"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 text-sm md:text-base leading-tight">Women's Shoes</p>
+        </div>
+        <div class="max-w-80 text-center space-y-2">
+          <div class="aspect-4/5 bg-[#F6F6F6] overflow-hidden">
+            <img
+              src="./img/shop4.jpg"
+              class="w-full h-full object-cover"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 text-sm md:text-base leading-tight">Beauty</p>
+        </div>
+        <div class="max-w-80 text-center space-y-2">
+          <div class="aspect-4/5 bg-[#F6F6F6] overflow-hidden">
+            <img
+              src="./img/shop5.jpg"
+              class="w-full h-full object-cover"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 text-sm md:text-base leading-tight">Men's Bag</p>
+        </div>
+        <div class="max-w-80 text-center space-y-2">
+          <div class="aspect-4/5 bg-[#F6F6F6] overflow-hidden">
+            <img
+              src="./img/shop6.jpg"
+              class="w-full h-full object-cover"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 text-sm md:text-base leading-tight">
+            Men's Small Leather Goods
+          </p>
+        </div>
+        <div class="max-w-80 text-center space-y-2">
+          <div class="aspect-4/5 bg-[#F6F6F6] overflow-hidden">
+            <img
+              src="./img/shop7.jpg"
+              class="w-full h-full object-cover"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 text-sm md:text-base leading-tight">Men's Shoes</p>
+        </div>
+        <div class="max-w-80 text-center space-y-2">
+          <div class="aspect-4/5 bg-[#F6F6F6] overflow-hidden">
+            <img
+              src="./img/shop8.jpg"
+              class="w-full h-full object-cover"
+              alt=""
+            />
+          </div>
+          <p class="mt-4 text-sm md:text-base leading-tight">Perfumes</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- image -->
+    <section class="mb-20 hidden md:block">
+      <img src="./img/image.jpg" alt="" class="w-full h-full object-cover" />
+    </section>
+    <!-- small device -->
+    <section
+      class="md:hidden sticky top-0 h-[60vh] bg-white w-full -z-10 overflow-hidden"
+    >
+      <img src="./img/image-sm.jpg" alt="" class="w-full h-full object-cover" />
+    </section>
+
+    <!-- leather -->
+    <section class="pb-10 md:pb-20 px-4 md:px-20 relative z-10 bg-white pt-10">
+      <div class="text-center">
+        <span class="text-xs">NEW</span>
+        <p class="md:text-3xl text-2xl">Iconic Small Leather Goods</p>
+
+        <div
+          class="max-w-7xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-x-5 gap-y-7 md:gap-y-10 pt-10"
+        >
+          <div class="space-y-2 md:space-y-3">
+            <div
+              class="bg-[#E6E5E5] p-5 md:p-10 md:h-96 flex items-center justify-center relative"
+            >
+              <div class="md:aspect-auto bg-transparent overflow-hidden">
+                <img
+                  src="./img/leather1.png"
+                  class="w-full h-full object-contain"
+                  alt=""
+                />
+              </div>
+              <i class="fa-regular fa-heart absolute top-3 right-3"></i>
+            </div>
+            <p class="text-start text-xs md:text-sm">
+              LV x TM Vanity Chain Pouch
+            </p>
+            <p class="text-start text-xs md:text-sm text-gray-500">
+              $ 3,150.00
+            </p>
+          </div>
+          <div class="space-y-2 md:space-y-3">
+            <div
+              class="bg-[#E6E5E5] p-5 md:p-10 md:h-96 flex items-center justify-center relative"
+            >
+              <div class="md:aspect-auto bg-transparent overflow-hidden">
+                <img
+                  src="./img/leather2.png"
+                  class="w-full h-full object-contain"
+                  alt=""
+                />
+              </div>
+              <i class="fa-regular fa-heart absolute top-3 right-3"></i>
+            </div>
+            <p class="text-start text-xs md:text-sm">Pochette Hills</p>
+            <p class="text-start text-xs md:text-sm text-gray-500">
+              $ 2,280.00
+            </p>
+          </div>
+          <div class="space-y-2 md:space-y-3">
+            <div
+              class="bg-[#E6E5E5] p-5 md:p-10 md:h-96 flex items-center justify-center relative"
+            >
+              <div class="md:aspect-auto bg-transparent overflow-hidden">
+                <img
+                  src="./img/leather3.png"
+                  class="w-full h-full object-contain"
+                  alt=""
+                />
+              </div>
+              <i class="fa-regular fa-heart absolute top-3 right-3"></i>
+            </div>
+            <p class="text-start text-xs md:text-sm">Pochette Liv</p>
+            <p class="text-start text-xs md:text-sm text-gray-500">
+              $ 2,220.00
+            </p>
+          </div>
+          <div class="space-y-2 md:space-y-3">
+            <div
+              class="bg-[#E6E5E5] p-5 md:p-10 md:h-96 flex items-center justify-center relative"
+            >
+              <div class="md:aspect-auto bg-transparent overflow-hidden">
+                <img
+                  src="./img/leather4.png"
+                  class="w-full h-full object-contain"
+                  alt=""
+                />
+              </div>
+              <i class="fa-regular fa-heart absolute top-3 right-3"></i>
+            </div>
+            <p class="text-start text-xs md:text-sm">Nano Speedy</p>
+            <p class="text-start text-xs md:text-sm text-gray-500">
+              $ 2,260.00
+            </p>
+          </div>
+        </div>
+        <div class="mt-10 md:mt-14">
+          <button
+            class="border border-black hover:border-2 px-8 py-3 ease-in-out rounded-3xl"
+          >
+            Shop Now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- image -->
+    <section class="mb-20 hidden md:block bg-white">
+      <img src="./img/image2.jpg" alt="" />
+    </section>
+    <!-- small device -->
+    <section
+      class="md:hidden bg-white sticky top-0 h-[60vh] w-full -z-10 overflow-hidden"
+    >
+      <img
+        src="./img/image2-sm.jpg"
+        alt=""
+        class="w-full h-full object-cover"
+      />
+    </section>
+
+    <!-- bags -->
+    <section class="pb-10 md:pb-20 px-4 md:px-20 relative z-10 bg-white pt-10">
+      <div class="text-center">
+        <span class="text-xs">NEW</span>
+        <p class="md:text-3xl text-2xl">Monogram Midnight Bags</p>
+
+        <div
+          class="max-w-7xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-x-5 gap-y-7 md:gap-y-10 pt-10"
+        >
+          <div class="space-y-2 md:space-y-3">
+            <div
+              class="bg-[#E6E5E5] p-5 md:p-10 md:h-96 flex items-center justify-center relative"
+            >
+              <div class="md:aspect-auto bg-transparent overflow-hidden">
+                <img
+                  src="./img/bag1.png"
+                  class="w-full h-full object-contain"
+                  alt=""
+                />
+              </div>
+              <i class="fa-regular fa-heart absolute top-3 right-3"></i>
+            </div>
+            <p class="text-start text-xs md:text-sm">Duo Slingbag</p>
+            <p class="text-start text-xs md:text-sm text-gray-500">
+              $ 2,600.00
+            </p>
+          </div>
+          <div class="space-y-2 md:space-y-3">
+            <div
+              class="bg-[#E6E5E5] p-5 md:p-10 md:h-96 flex items-center justify-center relative"
+            >
+              <div class="md:aspect-auto bg-transparent overflow-hidden">
+                <img
+                  src="./img/bag2.png"
+                  class="w-full h-full object-contain"
+                  alt=""
+                />
+              </div>
+              <i class="fa-regular fa-heart absolute top-3 right-3"></i>
+            </div>
+            <p class="text-start text-xs md:text-sm">Multiple Wallet</p>
+            <p class="text-start text-xs md:text-sm text-gray-500">$ 605.00</p>
+          </div>
+          <div class="space-y-2 md:space-y-3">
+            <div
+              class="bg-[#E6E5E5] p-5 md:p-10 md:h-96 flex items-center justify-center relative"
+            >
+              <div class="md:aspect-auto bg-transparent overflow-hidden">
+                <img
+                  src="./img/bag3.png"
+                  class="w-full h-full object-contain"
+                  alt=""
+                />
+              </div>
+              <i class="fa-regular fa-heart absolute top-3 right-3"></i>
+            </div>
+            <p class="text-start text-xs md:text-sm">Rush Bumbag</p>
+            <p class="text-start text-xs md:text-sm text-gray-500">
+              $ 2,450.00
+            </p>
+          </div>
+          <div class="space-y-2 md:space-y-3">
+            <div
+              class="bg-[#E6E5E5] p-5 md:p-10 md:h-96 flex items-center justify-center relative"
+            >
+              <div class="md:aspect-auto bg-transparent overflow-hidden">
+                <img
+                  src="./img/bag4.png"
+                  class="w-full h-full object-contain"
+                  alt=""
+                />
+              </div>
+              <i class="fa-regular fa-heart absolute top-3 right-3"></i>
+            </div>
+            <p class="text-start text-xs md:text-sm">Pocket Organizer</p>
+            <p class="text-start text-xs md:text-sm text-gray-500">$ 475.00</p>
+          </div>
+        </div>
+        <div class="mt-10 md:mt-14">
+          <button
+            class="border border-black hover:border-2 px-8 py-3 ease-in-out rounded-3xl"
+          >
+            Shop Now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- image -->
+    <section class="mb-20 hidden md:block">
+      <img src="./img/image3.jpg" alt="" class="w-full h-full object-cover" />
+    </section>
+    <!-- small device -->
+    <section
+      class="md:hidden sticky top-0 h-[60vh] bg-white w-full -z-10 overflow-hidden"
+    >
+      <img
+        src="./img/image3-sm.jpg"
+        alt=""
+        class="w-full h-full object-cover"
+      />
+    </section>
+
+    <!-- mens -->
+    <section class="pb-10 md:mb-20 px-4 md:px-20 relative z-10 bg-white pt-10">
+      <div class="text-center">
+        <span class="text-xs">NEW</span>
+        <p class="md:text-3xl text-[23px]">Men's Spring-Summer 2026</p>
+
+        <div
+          class="max-w-7xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-x-5 gap-y-7 md:gap-y-10 pt-10"
+        >
+          <div class="space-y-2 md:space-y-3">
+            <div
+              class="bg-[#E6E5E5] p-5 md:p-10 md:h-96 flex items-center justify-center relative"
+            >
+              <div class="md:aspect-auto bg-transparent overflow-hidden">
+                <img
+                  src="./img/man1.png"
+                  class="w-full h-full object-contain"
+                  alt=""
+                />
+              </div>
+              <i class="fa-regular fa-heart absolute top-3 right-3"></i>
+            </div>
+            <p class="text-start text-xs md:text-sm">
+              Speedy 25 Bandoulière x The Darjeeling
+            </p>
+            <p class="text-start text-xs md:text-sm text-gray-500">
+              $ 3,550.00
+            </p>
+          </div>
+          <div class="space-y-2 md:space-y-3">
+            <div
+              class="bg-[#E6E5E5] p-5 md:p-10 md:h-96 flex items-center justify-center relative"
+            >
+              <div class="md:aspect-auto bg-transparent overflow-hidden">
+                <img
+                  src="./img/man2.png"
+                  class="w-full h-full object-contain"
+                  alt=""
+                />
+              </div>
+              <i class="fa-regular fa-heart absolute top-3 right-3"></i>
+            </div>
+            <p class="text-start text-xs md:text-sm">
+              Monogram Leather Puffer Jacket
+            </p>
+            <p class="text-start text-xs md:text-sm text-gray-500">
+              $ 7,770.00
+            </p>
+          </div>
+          <div class="space-y-2 md:space-y-3">
+            <div
+              class="bg-[#E6E5E5] p-5 md:p-10 md:h-96 flex items-center justify-center relative"
+            >
+              <div class="md:aspect-auto bg-transparent overflow-hidden">
+                <img
+                  src="./img/man3.png"
+                  class="w-full h-full object-contain"
+                  alt=""
+                />
+              </div>
+              <i class="fa-regular fa-heart absolute top-3 right-3"></i>
+            </div>
+            <p class="text-start text-xs md:text-sm">LV Tilted Sneaker</p>
+            <p class="text-start text-xs md:text-sm text-gray-500">
+              $ 1,210.00
+            </p>
+          </div>
+          <div class="space-y-2 md:space-y-3">
+            <div
+              class="bg-[#E6E5E5] p-5 md:p-10 md:h-96 flex items-center justify-center relative"
+            >
+              <div class="md:aspect-auto bg-transparent overflow-hidden">
+                <img
+                  src="./img/man4.png"
+                  class="w-full h-full object-contain"
+                  alt=""
+                />
+              </div>
+              <i class="fa-regular fa-heart absolute top-3 right-3"></i>
+            </div>
+            <p class="text-start text-xs md:text-sm">
+              LV x The Darjeeling Limited Dopp Kit Canvas
+            </p>
+            <p class="text-start text-xs md:text-sm text-gray-500">
+              $ 1,260.00
+            </p>
+          </div>
+        </div>
+        <div class="mt-10 md:mt-14">
+          <button
+            class="border border-black hover:border-2 px-8 py-3 ease-in-out rounded-3xl"
+          >
+            Shop Now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section
+      class="pb-10 md:mb-10 px-4 md:px-20 relative z-10 bg-white pt-10 md:pt-0"
+    >
+      <div class="text-center">
+        <p class="text-2xl md:text-3xl">Louis Vuitton Services</p>
+        <p class="text-gray-400 py-5 md:max-w-[40%] mx-auto">
+          Client Advisor support, signature gift wrapping, and exclusive
+          personalization options.
+        </p>
+
+        <div
+          class="pb-10 md:pt-10 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 items-center gap-10"
+        >
+          <div class="space-y-3">
+            <img src="./img/service1.jpg" alt="" />
+            <p class="text-center">Mon Monogram</p>
+            <p class="flex items-center justify-center gap-3 text-sm">
+              <button class="underline">Shop Mon Monogram</button>
+              <button class="underline">Shop All Personalization</button>
+            </p>
+          </div>
+          <div class="space-y-3">
+            <img src="./img/service2.jpg" alt="" />
+            <p class="text-center">The Art of Gifting</p>
+            <p class="flex items-center justify-center gap-3 text-sm">
+              <button class="underline">Gifts for Her</button>
+              <button class="underline">Gifts for Him</button>
+            </p>
+          </div>
+          <div class="space-y-3">
+            <img src="./img/service3.jpg" alt="" />
+            <p class="text-center">Services</p>
+            <p class="flex items-center justify-center gap-3 text-sm">
+              <button class="underline">Contact Us</button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="border-t hidden md:block border-gray-300 bg-white">
+      <div class="p-10 items-start justify-around flex">
+        <div class="max-w-[25%]">
+          <p class="text-xs mb-5">Help</p>
+          <div class="space-y-4">
+            <p class="text-sm">
+              Our Client Advisors are available to assist you by phone at
+              <span class="underline">+1.866.VUITTON</span> , or you may also
+              <span class="underline">chat with us</span>.
+            </p>
+            <p class="text-sm">FAQs</p>
+            <p class="text-sm">Product Care</p>
+            <p class="text-sm">Stores</p>
+          </div>
+        </div>
+
+        <div class="">
+          <p class="text-xs mb-5">Services</p>
+          <div class="space-y-4 text-sm">
+            <p>Repairs</p>
+            <p>Personalization</p>
+            <p>Art of Gifting</p>
+            <p>Download our Apps</p>
+          </div>
+        </div>
+
+        <div class="">
+          <p class="text-xs mb-5">About Louis Vuitton</p>
+          <div class="text-sm space-y-4">
+            <p>Fashion Shows</p>
+            <p>Arts & Culture</p>
+            <p>La Maison</p>
+            <p>Sustainability</p>
+            <p>Latest News</p>
+            <p>Careers</p>
+            <p>Foundation Louis Vuitton</p>
+          </div>
+        </div>
+
+        <div class="max-w-[25%]">
+          <p class="text-xs mb-5">Email and SMS Sign-Up</p>
+          <div class="space-y-4 text-sm">
+            <p>
+              <span class="underline">Subscribe</span> for exclusive email and
+              SMS updates and receive the latest news from Louis Vuitton,
+              including new arrivals and exclusive collections.
+            </p>
+            <p>Follow Us</p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="border block border-gray-300" />
+
+      <div class="flex items-center justify-between p-10">
+        <div class="text-sm">
+          <p class="flex items-center gap-2">
+            Ship to: <img src="./img/usa.svg" alt="" class="w-5 border-2" />
+            <span class="underline">United State of America</span>
+          </p>
+        </div>
+        <div class="flex items-center gap-8 text-sm">
+          <span>Sitemap </span>
+          <span>Legal Notices </span>
+          <span>Privacy Policy</span>
+          <span>California Supply Chains Act</span>
+          <span class="flex items-center gap-2">
+            Your Privacy Choices
+            <img src="./img/privacy.svg" class="w-7" alt=""
+          /></span>
+          <span>Accessibility</span>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-center mt-5 mb-10">
+        <img src="./img/louis.svg" alt="" />
+      </div>
+    </footer>
+    <!-- small device -->
+    <footer class="md:hidden border-t border-gray-300 bg-white">
+      <div class="md:hidden flex items-center justify-center my-10">
+        <img src="./img/louis.svg" alt="" />
+      </div>
+
+      <div class="md:hidden px-4">
+        <p
+          class="flex items-center text-sm justify-between border-y border-gray-300 p-5"
+        >
+          <span>Help</span>
+          <span><i class="fa-solid fa-plus"></i></span>
+        </p>
+        <p
+          class="flex items-center justify-between border-b border-gray-300 p-5"
+        >
+          <span>Services</span>
+          <span><i class="fa-solid fa-plus"></i></span>
+        </p>
+        <p
+          class="flex items-center justify-between border-b border-gray-300 p-5"
+        >
+          <span>About Louis Vuitton</span>
+          <span><i class="fa-solid fa-plus"></i></span>
+        </p>
+        <p
+          class="flex items-center justify-between border-b border-gray-300 p-5"
+        >
+          <span>Email and SMS Sign-Up</span>
+          <span><i class="fa-solid fa-plus"></i></span>
+        </p>
+      </div>
+      <div
+        class="flex flex-col-reverse items-center justify-between px-4 py-10"
+      >
+        <div class="text-sm">
+          <p class="flex items-center gap-2">
+            Ship to: <img src="./img/usa.svg" alt="" class="w-5 border-2" />
+            <span class="underline">United State of America</span>
+          </p>
+        </div>
+        <div
+          class="flex flex-wrap items-center justify-center gap-y-4 gap-x-8 mb-8 text-sm"
+        >
+          <span>Sitemap </span>
+          <span>Legal Notices </span>
+          <span>Privacy Policy</span>
+          <span>California Supply Chains Act</span>
+          <span class="flex items-center gap-2">
+            Your Privacy Choices
+            <img src="./img/privacy.svg" class="w-7" alt=""
+          /></span>
+          <span>Accessibility</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
