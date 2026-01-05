@@ -19,7 +19,7 @@ The website contains **three (3) main pages**:
    - Brand-focused UI
    - Navigation bar
 
-2. **Heritage Page**
+2. **Monogram Page**
 
    - Displays brand heritage and legacy content
    - Accessible from the navigation menu
@@ -34,7 +34,7 @@ The website contains **three (3) main pages**:
 
 - Clicking the **Louis Vuitton logo** → redirects to **Home page**
 - Clicking **Home** → redirects to **Home page**
-- Clicking **Heritage** → redirects to **Heritage page**
+- Clicking **Monogram** → redirects to **Monogram page**
 - Clicking the **Cart icon** → redirects to **Checkout page**
 
 Navigation works consistently across all pages and screen sizes.
